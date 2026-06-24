@@ -51,6 +51,12 @@ To assess the impact of using an ensemble method (Random Forest) and hyperparame
 | Initial Random Forest   | 0.9567   | 0.9677    | 0.9526   | 0.9601   | 0.9931   |
 | Tuned Random Forest     | 0.9577   | 0.9679    | 0.9544   | 0.9611   | 0.9933   |
 
+### F1-Score Explained:
+
+The F1-score is the harmonic mean of Precision and Recall. It is particularly useful when you have an uneven class distribution, as it punishes models that predict too many false positives or false negatives. A high F1-score indicates that the model has good precision and recall.
+
+$F1 = 2 * (Precision * Recall) / (Precision + Recall)$
+
 ### Key Takeaways from Comparison:
 
 *   **Random Forest Advantage**: Both the initial and tuned Random Forest models significantly outperformed the standalone Decision Tree across all metrics, highlighting the benefits of ensemble learning in handling complexity and improving generalization.
